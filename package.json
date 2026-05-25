@@ -75,7 +75,7 @@
     "test:coverage": "vitest run --coverage",
     "spell:check": "cspell \"{README.md,CODE_OF_CONDUCT.md,CONTRIBUTING.md,.github/*.md}\"",
     "visualize": "npx vite-bundle-visualizer@1.2.1",
-    "prepare": "pnpm build || true"
+    "prepare": "pnpm build"
   },
   "dependencies": {
     "clsx": "^2.1.1",
